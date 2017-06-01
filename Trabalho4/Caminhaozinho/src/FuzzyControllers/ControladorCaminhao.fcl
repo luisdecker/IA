@@ -1,0 +1,84 @@
+//Voce define um FUNCTION_BLOCK (pode ter mais que um em cada arquivo)
+FUNCTION_BLOCK caminhao 
+//agora, as variaveis de input e output são definidas
+//Só tem variavel REAL
+    VAR_INPUT
+        posicaoX : REAL;// Variaveis lidas do ambiente
+        posicaoY : REAL;
+        anguloOlhando : REAL;
+    END_VAR
+
+    VAR_OUTPUT
+        volante : REAL;//Variaveis de controle enviadas para o ambiente
+    END_VAR
+//A maneira em que cada variavel é fuzzificada é definida no bloco FUZZIFY.
+//Em cada bloco definimos um ou mais termos. Cada termo é composto de um nome 
+//e uma função de pertinência
+
+//Cada valor é um ponto (x,y) em que esta funcao será definida.
+//No eixo x temos o valor da variavel, e no eixo y o grau de pertinencia [0,1]
+
+    FUZZIFY posicaoX
+        TERM aEsquerda := (0,1) (0.1,1) (0.5,0);
+        TERM centro := (0.3,0) (0.5,1) (0.7,0);
+        TERM aDireita := (0.5,0) (0.9,1) (1,1);
+    END_FUZZIFY
+
+    
+    FUZZIFY posicaoY
+        TERM acima := (0,1) (1,0);
+        TERM abaixo := (0,0) (1,1);
+    END_FUZZIFY
+
+    FUZZIFY anguloOlhando
+        TERM norte := (0,0) (180,0) (270,1) (360,0);
+        TERM sul := (0,0) (90,1) (180,0) (360,0);
+        TERM leste := (0,1)(90,0)(270,0);
+        TERM oeste := (0,1)(90,0)(270,0)(360,1);
+    END_FUZZIFY
+
+//  As variaveis de saida são desfuzzificadas para um valor de saida REAL. 
+//Isto é definido em um bloco DEFUZZIFY. Como o FUZZIFY, TERMs são definidos
+
+    DEFUZZIFY volante
+        TERM muitoEsquerda = (-1,1) (-0.5,0);
+        TERM esquerda = (-0.5,0) (-0.25,1)(0,0);
+        TERM direita = (0,0) (0.25,1) (0.5,0)
+        TERM muitoDireita = (0.5,0) (1,1);
+        
+//"Center of Gravity" sera o metodo de defuzificação
+        METHOD : COG;
+//Valor defaul (caso ninguém atue)
+        DEFAULT : 0;
+    END_DEFUZZIFY
+//Agora definimos as regras. Fazemos isso usando um RULEBLOCK.
+
+    RULEBLOCK No1
+//Primeiro definimos os parametros 
+//Usar MIN para AND (E MAX para OR, seguindo a lei de DeMorgan)
+        AND : MIN;
+//Usar MIN como método de ativacao
+        ACT : MIN;
+//Usar MAX como método de acumulação
+        ACCU : MAX;
+    
+//Agora definimos as regras
+        RULE 1: IF posicaoX IS aEsquerda AND anguloOlhando IS leste THEN volante IS direita;
+        
+        RULE 2: IF posicaoX IS aEsquerda AND anguloOlhando IS norte THEN volante IS muitoDireita;
+                
+        RULE 3: IF posicaoX IS aEsquerda AND anguloOlhando IS oeste THEN volante IS muitoEsquerda;
+        
+        RULE 4: IF posicaoX IS aEsquerda AND anguloOlhando IS sul THEN volante IS esquerda;
+
+        RULE 5: IF posicaoX IS aDireita AND anguloOlhando IS leste THEN volante IS muitoDireita;
+        
+        RULE 6: IF posicaoX IS aDireita AND anguloOlhando IS norte THEN volante IS muitoEsquerda;
+                
+        RULE 7: IF posicaoX IS aDireita AND anguloOlhando IS oeste THEN volante IS esquerda;
+        
+        RULE 8: IF posicaoX IS aDireita AND anguloOlhando IS sul THEN volante IS direita;
+
+
+    END_RULEBLOCK
+END_FUNCTION_BLOCK
