@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLObjectProperty_1aaa43ea_c6d3_4cdb_8c65_07ef853c622a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLObjectProperty_1aaa43ea_c6d3_4cdb_8c65_07ef853c622a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Joga</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_02bdbc55_9fd2_48a2_a143_a7b28e833645 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_02bdbc55_9fd2_48a2_a143_a7b28e833645">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Simuladores</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_be1acdb2_4d3d_41d2_8fde_72fe7842bc87"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460"/>
+        <rdfs:label xml:lang="en">Ocidental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_0f684510_796a_4f68_937e_9d4c6879ef6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_0f684510_796a_4f68_937e_9d4c6879ef6a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_213af3f4_d504_415b_bfaa_2aef1b0b2a40"/>
+        <rdfs:label xml:lang="en">F1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_16985c0d_99d4_4679_8a7a_598c636a197c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_16985c0d_99d4_4679_8a7a_598c636a197c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_5480e74a_0cfe_49d7_84ab_73bc485b43eb"/>
+        <rdfs:label xml:lang="en">Casual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_19698a17_8315_4dca_82e6_e4f82680cd6d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_19698a17_8315_4dca_82e6_e4f82680cd6d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92"/>
+        <rdfs:label xml:lang="en">Realista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_213af3f4_d504_415b_bfaa_2aef1b0b2a40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_213af3f4_d504_415b_bfaa_2aef1b0b2a40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Carro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3c7ff59b_5828_4ed2_9626_5cf69ce1681f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3c7ff59b_5828_4ed2_9626_5cf69ce1681f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eb07091a_96db_4ad4_a9b0_0fa8d34766b9"/>
+        <rdfs:label xml:lang="en">Plataforma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3e5e263d_d448_406c_8160_eaed7fc12fcb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3e5e263d_d448_406c_8160_eaed7fc12fcb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a"/>
+        <rdfs:label xml:lang="en">Youtuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4338049e_5f67_488c_9087_9c549c3bac9f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4338049e_5f67_488c_9087_9c549c3bac9f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92"/>
+        <rdfs:label xml:lang="en">Idade Média</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4624451f_e813_43b0_b2ed_a8f3effc05be -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4624451f_e813_43b0_b2ed_a8f3effc05be">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3e5e263d_d448_406c_8160_eaed7fc12fcb"/>
+        <rdfs:label xml:lang="en">Famoso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4898d287_5951_4d17_a03d_ad79433854ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4898d287_5951_4d17_a03d_ad79433854ec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460"/>
+        <rdfs:label xml:lang="en">Mironakani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_5480e74a_0cfe_49d7_84ab_73bc485b43eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_5480e74a_0cfe_49d7_84ab_73bc485b43eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Moba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_56df44bb_654c_4ec5_bd37_1adf6334a97a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_56df44bb_654c_4ec5_bd37_1adf6334a97a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6e11e9b2_9cbb_4e4b_ba4b_c580e276edcf"/>
+        <rdfs:label xml:lang="en">Doente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6495258e_b9b1_4517_b105_890c4829292c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6495258e_b9b1_4517_b105_890c4829292c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_5480e74a_0cfe_49d7_84ab_73bc485b43eb"/>
+        <rdfs:label xml:lang="en">Esportivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6c57c392_783f_4d0d_a3d4_52c7a7fbb88c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6c57c392_783f_4d0d_a3d4_52c7a7fbb88c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92"/>
+        <rdfs:label xml:lang="en">Vampiros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6e11e9b2_9cbb_4e4b_ba4b_c580e276edcf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6e11e9b2_9cbb_4e4b_ba4b_c580e276edcf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a"/>
+        <rdfs:label xml:lang="en">Hardcore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_7dc752ab_7b80_42a5_8b86_aac2244ce6a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_7dc752ab_7b80_42a5_8b86_aac2244ce6a4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3e5e263d_d448_406c_8160_eaed7fc12fcb"/>
+        <rdfs:label xml:lang="en">Crescendo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8430d681_c5cf_4d66_af4a_46d96fd8ca0e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8430d681_c5cf_4d66_af4a_46d96fd8ca0e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3e5e263d_d448_406c_8160_eaed7fc12fcb"/>
+        <rdfs:label xml:lang="en">Desconhecido</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_87174e24_7179_4c57_8b51_c571c02ffd85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_87174e24_7179_4c57_8b51_c571c02ffd85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460"/>
+        <rdfs:label xml:lang="en">Naturo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8b02e45f_8bf2_4372_9acd_3778b8840e35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8b02e45f_8bf2_4372_9acd_3778b8840e35">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Infantil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8e819253_90f3_4b6e_84e1_3b637616055b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8e819253_90f3_4b6e_84e1_3b637616055b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Estratégia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_9170aa73_7c69_46a5_9da1_63bef46ec8e9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_9170aa73_7c69_46a5_9da1_63bef46ec8e9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6e11e9b2_9cbb_4e4b_ba4b_c580e276edcf"/>
+        <rdfs:label xml:lang="en">Desocupado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a"/>
+        <rdfs:label xml:lang="en">Jogo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a45bc4a0_fd3e_435e_8ebf_7a456b2b0743 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a45bc4a0_fd3e_435e_8ebf_7a456b2b0743">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eb07091a_96db_4ad4_a9b0_0fa8d34766b9"/>
+        <rdfs:label xml:lang="en">Terceira Pessoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a4988b4c_ba8d_436a_ab3e_1eb5dc9873fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a4988b4c_ba8d_436a_ab3e_1eb5dc9873fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eb07091a_96db_4ad4_a9b0_0fa8d34766b9"/>
+        <rdfs:label xml:lang="en">Primeira Pessoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_af21e6e1_ada3_44ef_863d_cbc060e828cb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_af21e6e1_ada3_44ef_863d_cbc060e828cb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_213af3f4_d504_415b_bfaa_2aef1b0b2a40"/>
+        <rdfs:label xml:lang="en">Outros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b3a4aa11_1ddf_4660_b06c_1109cba9e56a">
+        <rdfs:label xml:lang="en">Jogadores</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b5c98162_7825_4a9f_85d1_e0e411a932ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b5c98162_7825_4a9f_85d1_e0e411a932ed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460"/>
+        <rdfs:label xml:lang="en">Bokunopico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_be1acdb2_4d3d_41d2_8fde_72fe7842bc87 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_be1acdb2_4d3d_41d2_8fde_72fe7842bc87">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">RPG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_ca15a726_5d37_4bf9_a893_fc63048b220b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_ca15a726_5d37_4bf9_a893_fc63048b220b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6e11e9b2_9cbb_4e4b_ba4b_c580e276edcf"/>
+        <rdfs:label xml:lang="en">Esportista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d15a5282_6ca2_4f57_ad80_d886d681625e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d15a5282_6ca2_4f57_ad80_d886d681625e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_07798e6f_49e3_4731_bca6_3503e4e7ef92"/>
+        <rdfs:label xml:lang="en">Ficção Científica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d81c15d5_7c10_4e8c_8282_40bdef103e39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d81c15d5_7c10_4e8c_8282_40bdef103e39">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460"/>
+        <rdfs:label xml:lang="en">Kakaishitesu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eb07091a_96db_4ad4_a9b0_0fa8d34766b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eb07091a_96db_4ad4_a9b0_0fa8d34766b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_92546054_102e_4559_9691_8562493e9d02"/>
+        <rdfs:label xml:lang="en">Tiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eec22cbd_62ac_4dfb_81ef_da0469b6ec32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eec22cbd_62ac_4dfb_81ef_da0469b6ec32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_213af3f4_d504_415b_bfaa_2aef1b0b2a40"/>
+        <rdfs:label xml:lang="en">Rally</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_f769823a_888d_4b6b_bec3_766d12d3b460">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_be1acdb2_4d3d_41d2_8fde_72fe7842bc87"/>
+        <rdfs:label xml:lang="en">Japonês</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLNamedIndividual_2f2215d8_bf2a_4f96_81ee_66fc4eabfb0f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLNamedIndividual_2f2215d8_bf2a_4f96_81ee_66fc4eabfb0f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6495258e_b9b1_4517_b105_890c4829292c"/>
+        <rdfs:label xml:lang="en">DOtA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_0f684510_796a_4f68_937e_9d4c6879ef6a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_af21e6e1_ada3_44ef_863d_cbc060e828cb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_eec22cbd_62ac_4dfb_81ef_da0469b6ec32"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_19698a17_8315_4dca_82e6_e4f82680cd6d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4338049e_5f67_488c_9087_9c549c3bac9f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_6c57c392_783f_4d0d_a3d4_52c7a7fbb88c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d15a5282_6ca2_4f57_ad80_d886d681625e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_3c7ff59b_5828_4ed2_9626_5cf69ce1681f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a45bc4a0_fd3e_435e_8ebf_7a456b2b0743"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_a4988b4c_ba8d_436a_ab3e_1eb5dc9873fe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4624451f_e813_43b0_b2ed_a8f3effc05be"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_7dc752ab_7b80_42a5_8b86_aac2244ce6a4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_8430d681_c5cf_4d66_af4a_46d96fd8ca0e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_4898d287_5951_4d17_a03d_ad79433854ec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_87174e24_7179_4c57_8b51_c571c02ffd85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_b5c98162_7825_4a9f_85d1_e0e411a932ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_d81c15d5_7c10_4e8c_8282_40bdef103e39"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_56df44bb_654c_4ec5_bd37_1adf6334a97a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_9170aa73_7c69_46a5_9da1_63bef46ec8e9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/decker/ontologies/2017/4/untitled-ontology-9#OWLClass_ca15a726_5d37_4bf9_a893_fc63048b220b"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

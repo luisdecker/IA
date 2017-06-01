@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/9ska7V0kBZlM3vPB0dNfYt#"
+     xml:base="http://webprotege.stanford.edu/project/9ska7V0kBZlM3vPB0dNfYt"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/9ska7V0kBZlM3vPB0dNfYt"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R701H6ztTbH2eYdZKsafv06 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R701H6ztTbH2eYdZKsafv06">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS"/>
+        <rdfs:label>Paralela</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82MC1fmE5dq3UWsaOmZcqD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82MC1fmE5dq3UWsaOmZcqD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R701H6ztTbH2eYdZKsafv06"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8zqSBsM6fVuM1CXCLZFtAB"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPWIM076ZX58MIM1h7mQh4"/>
+        <rdfs:label>Distribuida</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pibYJGsCSuTTg70ntVwpc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pibYJGsCSuTTg70ntVwpc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zqSBsM6fVuM1CXCLZFtAB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8zqSBsM6fVuM1CXCLZFtAB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS"/>
+        <rdfs:label>Redes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95eXowo12sKU1Zk2s1gsF2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R95eXowo12sKU1Zk2s1gsF2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Professores</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Tdh1jJBoTwzCWosqmtjAH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Tdh1jJBoTwzCWosqmtjAH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primeiro Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aoMZSO2JL68Axe2t0prYt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9aoMZSO2JL68Axe2t0prYt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oitavo Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9OtcIkEZpyhPIot99r3eN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9OtcIkEZpyhPIot99r3eN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Setimo Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBA2Zb20Q2KihGQeo1xEEea -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBA2Zb20Q2KihGQeo1xEEea">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sexto Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBV091Tdjm2cJJ6MMjFKzsI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBV091Tdjm2cJJ6MMjFKzsI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quarto Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1Dh96zNWEk1DYuvgVQ3jC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1Dh96zNWEk1DYuvgVQ3jC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS"/>
+        <rdfs:label>Estrutura de Dados</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKKp3FYQUsnrXrSYOCOZmL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDKKp3FYQUsnrXrSYOCOZmL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segundo Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPQt9KF8HXAOLhTRrifAG1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPQt9KF8HXAOLhTRrifAG1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinto Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPWIM076ZX58MIM1h7mQh4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPWIM076ZX58MIM1h7mQh4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS"/>
+        <rdfs:label>Sistemas Operacionais</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUVm4IkjPlqFLzT8FgrO0T -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUVm4IkjPlqFLzT8FgrO0T">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPgnsKjoirryBO3SQMGnK4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terceiro Semestre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReAKB3x7UkwKSZ2w3JSPqS">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Área de Atuação</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+

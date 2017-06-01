@@ -1,0 +1,65 @@
+//Voce define um FUNCTION_BLOCK (pode ter mais que um em cada arquivo)
+FUNCTION_BLOCK tipper 
+//agora, as variaveis de input e output são definidas
+//Só tem variavel REAL
+    VAR_INPUT
+        service : REAL;// Variaveis lidas do ambiente
+        food : REAL;
+    END_VAR
+
+    VAR_OUTPUT
+        tip : REAL;//Variaveis de controle enviadas para o ambiente
+    END_VAR
+//A maneira em que cada variavel é fuzzificada é definida no bloco FUZZIFY.
+//Em cada bloco definimos um ou mais termos. Cada termo é composto de um nome 
+//e uma função de pertinência
+
+//Cada valor é um ponto (x,y) em que esta funcao será definida.
+//No eixo x temos o valor da variavel, e no eixo y o grau de pertinencia [0,1]
+
+    FUZZIFY service
+        TERM poor := (0,1) (4,0);
+        TERM good := (1,0) (4,1) (6,1) (9,0);
+        TERM excellent := (6,0) (9,1);
+    END_FUZZIFY
+
+    FUZZIFY food
+        TERM rancid := (0,1) (1,1) (3,0);
+        TERM delicious := (7,0) (9,1);
+    END_FUZZIFY
+
+//  As variaveis de saida são sefuzzificadas para um valor de saida REAL. 
+//Isto é definido em um bloco DEFUZZIFY. Como o FUZZIFY, TERMs são definidos
+
+    DEFUZZIFY tip
+        TERM cheap :=  (0,0) (5,1) (10,0);
+        TERM average := (10,0) (15,1) (20,0);
+        TERM generous := (20,0) (25,1) (30,0);
+//"Center of Gravity" sera o metodo de defuzificação
+        METHOD : COG;
+//Valor defaul (caso ninguém atue)
+        DEFAULT : 0;
+    END_DEFUZZIFY
+//Agora definimos as regras. Fazemos isso usando um RULEBLOCK.
+
+    RULEBLOCK No1
+//Primeiro definimos os parametros 
+//Usar MIN para AND (E MAX para OR, seguindo a lei de DeMorgan)
+        AND : MIN;
+//Usar MIN como método de ativacao
+        ACT : MIN;
+//Usar MAX como método de acumulação
+        ACCU : MAX;
+    
+//Agora definimos as regras
+        RULE 1 : IF service IS poor OR food IS rancid THEN tip IS cheap;
+        
+        RULE 2: IF service IS good THEN tip IS average;
+        
+        RULE 3: IF service IS excellent AND food IS delicious THEN tip IS generous;
+    END_RULEBLOCK
+END_FUNCTION_BLOCK
+        
+        
+    
+    
